@@ -1,0 +1,24 @@
+{
+  "accuracy": 0.8942307692307693,
+  "roc_auc": 0.9553473591935131,
+  "precision": 0.9378378378378378,
+  "recall": 0.8897435897435897,
+  "confusion_matrix": [
+    [
+      211,
+      23
+    ],
+    [
+      43,
+      347
+    ]
+  ],
+  "config": {
+    "epochs": 6,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "parameters": 93025,
+    "device": "cpu"
+  }
+}
